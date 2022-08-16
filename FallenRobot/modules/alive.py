@@ -7,28 +7,23 @@ from telegram import __version__ as lver
 from platform import python_version as pyver
 from FallenRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pbot
 
-PHOTO = [
-    "https://telegra.ph/file/47f1c6b57321808e9eb61.jpg",
-    "https://telegra.ph/file/d2433e011fb8eff1650f8.mp4",
-    "https://telegra.ph/file/4af05a90d3058915d20e6.jpg",
-    "https://telegra.ph/file/a0a79755bc3336f47a30b.jpg",
-    "https://telegra.ph/file/c35acfb3cd4699c7a9e2c.jpg",
-]
+PHOTO = "https://telegra.ph/file/3631907bddcc857dcbaf6.jpg" 
+
 
 SHREYXD = [
     [
-        InlineKeyboardButton(text="ʟᴇɢᴇɴᴅ", url=f"https://t.me/pythonxgamer"),
+        InlineKeyboardButton(text="ʟᴇɢᴇɴᴅ", url=f"https://t.me/Invincible_itAchi"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
-            url=f"https://t.me/zenxroBot?startgroup=true",
+            url=f"https://t.me/DemonGod_ZoroBot?startgroup=true",
         ),
     ],
 ]
 
-lol = "https://telegra.ph/file/90552395a5e96d0e7fab9.jpg"
+lol = "https://telegra.ph/file/3631907bddcc857dcbaf6.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -52,9 +47,9 @@ async def restart(client, m: Message):
     await asyncio.sleep(2)
     await m.reply_photo(
         lol,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『𝙕𝙀𝙉 ✘ 𝙍𝙊𝘽𝙊𝙏』**
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ ʀᴏʀᴏɴᴏᴀ ᴢᴏʀᴏ**
    ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀᴅɪᴛʏᴀ](https://t.me/{OWNER_USERNAME})
+  » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀꜰᴛʀʀ](https://t.me/{OWNER_USERNAME})
   
   » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
   

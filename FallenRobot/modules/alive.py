@@ -7,7 +7,7 @@ from telegram import __version__ as lver
 from platform import python_version as pyver
 from FallenRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pbot
 
-PHOTO = "https://telegra.ph/file/3631907bddcc857dcbaf6.jpg" 
+PHOTO = "https://telegra.ph/file/21102bd18cfcb1e128bb2.jpg" 
 
 
 SHREYXD = [
@@ -23,7 +23,7 @@ SHREYXD = [
     ],
 ]
 
-lol = "https://telegra.ph/file/3631907bddcc857dcbaf6.jpg"
+lol = "https://telegra.ph/file/21102bd18cfcb1e128bb2.jpg"
 
 
 @pbot.on_message(filters.command("alive"))

@@ -14,8 +14,8 @@ r = telegraph.create_account(short_name=Anonymous)
 auth_url = r["auth_url"]
 
 
-@register(pattern="^/t(gm|gt) ?(.*)")
-async def _(event):
+@register(pattern="^/t(m|t) ?(.*)")
+async def _(event)
     if event.fwd_from:
         return
     optional_title = event.pattern_match.group(2)

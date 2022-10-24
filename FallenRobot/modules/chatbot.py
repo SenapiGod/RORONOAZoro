@@ -139,7 +139,7 @@ def chatbot(update: Update, context: CallbackContext):
         anon = message.text
         bot.send_chat_action(chat_id, action="typing")
         url = f"https://kukiapi.up.railway.app/Kuki/chatbot?message='+Message)"
-        request = requests.get(https://kukiapi.up.railway.app/Kuki/chatbot?message='+Message))
+        request = requests.get(https://kukiapi.up.railway.app/Kuki/chatbot?message='+Message)
         results = json.loads(request.text)
         result = f"{results['reply']}"
         sleep(0.5)
